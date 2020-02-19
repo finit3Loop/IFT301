@@ -1,0 +1,51 @@
+html {
+    padding: unset;
+    margin:unset;
+    background-color: hsl(180, 50%, 50%);
+}
+body {
+    padding: unset;
+    margin: unset;
+}
+h1 {
+    padding: 10px;
+    color: darkgray;
+    font: larger;
+    font-family: Consolas, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: -10px;
+    text-shadow: 4px 4px 5px black;
+}
+.first-paragraph {
+    border: dashed white;
+    margin: 100px 300px 30px 300px;
+    padding: 10px 20px 10px 20px;
+    color: #696969;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-kerning: none;
+    
+    
+}
+.second-paragraph {
+    border: outset 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(105,105,105);
+    font-family: Helvetica, sans-serif;
+    text-decoration:line-through;
+    text-align: justify;
+    font-weight: bold;
+}
+.third-paragraph {
+    border: hidden;
+    margin: 10px 10px 10px 10px;
+    padding: 100px 20px 10px 700px;
+    color: hsl(0 , 0%, 41.18%);
+    font: 16px cursive;
+    text-align:end;
+    line-height: 2;
+    font-weight: bold;
+}

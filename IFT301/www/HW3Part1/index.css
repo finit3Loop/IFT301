@@ -1,0 +1,33 @@
+.first-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.first-table-header {
+    border: 1px solid black;
+    background-color: gray;
+    border-collapse: collapse;
+}
+.first-table-row {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.second-table {
+    border: groove;
+    background-color: #ec96a4;
+    color: black;
+    font-family: Georgia;
+    font-size: large;
+    text-align: center;
+}
+
+
+
+
+.secondary {
+    border: dashed;
+}
+.second-row{
+    border:groove;
+}

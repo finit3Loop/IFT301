@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+        <title>Submit game</title>
+</head>
+
+<body>
+
+    
+    <h3 class="submit-header">Submit new courts here</h3>
+
+    <div class="row">
+        <div class="court-photo-column-submit">
+            <img class="court-photo" src="./Court1.jpg" alt="Court 1" height="183" width="275">
+        </div>
+        <div class="court-photo-column-submit">
+            <img class="court-photo" src="./Court2.jpg" alt="Court 2">
+        </div>
+        <div class="court-photo-column-submit">
+            <img class="court-photo" src="./Court3.jpg" alt="Court 3">
+        </div>
+    </div>
+    <div class="form-container">
+        <form class="submit-form" action = "/placeholder.html" method="POST">
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"><br>
+            Location: <br>
+            <input type="text" name="location"> <br>
+            Discription:<br>
+            <textarea placeholder="Write your discription..." style="height:200px"></textarea>
+            <br>
+            <br>
+            <br>
+            <input class="submit-button" type="submit" value="Submit">
+        </form>
+    </div>
+    <br>
+    <br>
+    
+</body>
+
+<footer>
+    <p> 
+        <a class="site-nav-text" href="./index.html">Home</a>
+    </p>
+    
+</footer>

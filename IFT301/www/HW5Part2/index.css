@@ -1,0 +1,21 @@
+html {
+    background-color: #AAAAAA;
+}
+body{
+    font-family: Georgia, serif;
+}
+h1 {
+    color: #111111;
+    font: larger;
+    font-family: Consolas, sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 5px grey;
+}
+.seasonImg{
+    display: block;
+    height: auto;
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
