@@ -1,5 +1,5 @@
 html {
-    background-color: #AAAAAA;
+    background-color: #c2cad0;
 }
 body{
     font-family: sans-serif;
@@ -7,7 +7,6 @@ body{
 h1 {
     color: #111111;
     font: larger;
-    font-family: Consolas, sans-serif;
     text-align: center;
     text-shadow: 4px 4px 5px grey;
 }
@@ -23,11 +22,19 @@ img{
     margin: 4px auto;
     max-width: 1200px;
 }
-     
-     
 .card {
     border: 2px solid #e7e7e7;
     border-radius: 4px;
     padding: .5rem;
+    text-align: center;
+    background-color: #afd275;
+    font-family: Consolas, sans-serif;
+    font-size: larger;    
+}
+.attributes{
+    text-align: left;
+    font-size: 16px; 
+}
+.description{
     text-align: center;
 }

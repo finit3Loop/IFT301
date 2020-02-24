@@ -4,6 +4,9 @@ for(var i = 0; i < cards.length; i++){
     cards[i].classList.add("card");
    }
 }
-
-
-
+var attributes = document.getElementsByTagName("ul");
+for(var i = 0; i < attributes.length; i++){
+   if(attributes[i].id == "attributes"){
+    attributes[i].classList.add("attributes");
+   }
+}
