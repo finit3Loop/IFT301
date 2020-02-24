@@ -2,7 +2,7 @@ html {
     background-color: #AAAAAA;
 }
 body{
-    font-family: Georgia, serif;
+    font-family: sans-serif;
 }
 h1 {
     color: #111111;
@@ -11,11 +11,23 @@ h1 {
     text-align: center;
     text-shadow: 4px 4px 5px grey;
 }
-.seasonImg{
-    display: block;
-    height: auto;
-    max-width: 600px;
-    max-height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+img{
+    max-width: 300px;
+}
+.cards {
+ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;     
+    margin: 4px auto;
+    max-width: 1200px;
+}
+     
+     
+.card {
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: .5rem;
+    text-align: center;
 }
