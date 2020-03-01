@@ -1,0 +1,96 @@
+body{
+    background-color: aquamarine;
+    font-family: consolas, sans-serif;
+    
+}
+.submit-button{
+    background-color: black;
+    color: white;
+    border: 10px 10px 10px 10px;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    font-family: consolas, sans-serif;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.submit-button:hover {
+    background-color: aquamarine;
+    color: white;
+}
+.logo{
+    height: 15%;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+.row{
+    display: flex;
+}
+.court-photo-column-home{
+    padding: 5px;
+    flex: 33.33%;
+    margin: 0 auto; 
+    margin-bottom: 15px;
+}
+.court-photo-column-submit{
+    
+    flex: 33.33%;
+    margin: 0 auto; 
+    margin-bottom: 15px;
+}
+.court-photo{
+    border-radius: 15%;
+}
+.submit-header{
+    text-align: center;
+    font-family: consolas, sans-serif;
+    text-decoration: underline;
+    font-size: x-large;
+}
+input[type=text]{
+    border: black solid 2px;
+    border-radius: 4px;
+
+}
+textarea{
+    border: black solid 2px;
+    border-radius: 4px;
+}
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+.submit-form{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.site-nav-text{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+.form-container{
+    width: 25%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px 0px 50px 50px;
+}
