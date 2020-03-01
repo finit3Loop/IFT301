@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <title>Submit game</title>
-    
+    <meta charset="UTF-8">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="form-container">
-        <form class="submit-form" action = "/placeholder.html" method="POST">
+        <form class="submit-form" onclick="addCourt()" action = "/placeholder.html" method="POST">
             First name:<br>
             <input type="text" name="firstname"><br>
             Last name:<br>
@@ -38,6 +38,7 @@
             <input class="button" type="submit" value="Submit">
         </form>
     </div>
+    <script src="main.js"></script>
 </body>
 
 <footer>

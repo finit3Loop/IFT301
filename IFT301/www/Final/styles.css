@@ -24,11 +24,10 @@ body{
     color: white;
 }
 
-/* Bottom row stylings*/
+/* Bottom row stylings`*/
 .bottom-row{
     margin: auto;
     width: 50%;
-    border: 3px solid green;
     padding: 10px;
 }
 .bottom-row-button{
@@ -81,6 +80,14 @@ body{
     border-radius: 15%;
     max-height: 500px;
 }
+
+/* Submit stylings */
+.form-container{
+    width: 25%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px 0px 50px 50px;
+}
 .submit-header{
     text-align: center;
     font-family: consolas, sans-serif;
@@ -113,6 +120,7 @@ input[type=submit] {
     resize: vertical;
 }
 
+/* stuff */
 .site-nav-text{
     background-color: black;
     color: white;
@@ -121,10 +129,4 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     float: left;
-}
-.form-container{
-    width: 25%;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 50px 0px 50px 50px;
 }
