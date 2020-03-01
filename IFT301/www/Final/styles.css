@@ -3,7 +3,7 @@ body{
     font-family: consolas, sans-serif;
     
 }
-.submit-button{
+.button{
     background-color: black;
     color: white;
     border: 10px 10px 10px 10px;
@@ -15,9 +15,10 @@ body{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius: 4px;
     
 }
-.submit-button:hover {
+.button:hover {
     background-color: aquamarine;
     color: white;
 }
@@ -46,6 +47,7 @@ body{
 }
 .court-photo{
     border-radius: 15%;
+    max-height: 500px;
 }
 .submit-header{
     text-align: center;
