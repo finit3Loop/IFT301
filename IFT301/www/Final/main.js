@@ -32,6 +32,7 @@ function addCourt() {
     
 
     var discriptionLi = document.createElement('p');
+    discriptionLi.setAttribute('class','game-gard-discription')
     discriptionLi.innerHTML = discription;
     
     courtWrapper.appendChild(firstnameLi);
