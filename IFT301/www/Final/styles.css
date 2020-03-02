@@ -154,6 +154,7 @@ input[type=submit] {
 }
 
 .game-card{
+    line-height: 0.25;
     text-align: center;
     display: inline-block;
     justify-content: space-evenly;
