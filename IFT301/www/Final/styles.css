@@ -27,13 +27,12 @@ body{
 /* Bottom row stylings`*/
 .bottom-row{
     margin: auto;
-    width: 50%;
+    width: 60%;
     padding: 10px;
 }
 .bottom-row-button{
     background-color: black;
     color: white;
-    border: 10px 10px 10px 10px;
     transition-duration: 0.4s;
     font-size: 20px;
     font-family: consolas, sans-serif;
@@ -132,7 +131,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: left;
+    float: bottom;
 }
 .game-grid-headding{
     text-align: center;
