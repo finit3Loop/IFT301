@@ -1,41 +1,3 @@
-var fnArray = [];
-var lnArray = [];
-var locationArray = [];
-
-console.log(fnArray.length);
-
-
-for(var i = 0; i < length.fnArray; i++){
-    
-    var gameGrid = getElementById("game-grid");
-    
-    var gameUl = document.createElement('ul');
-    gameUl.setAttribute('id', 'game-ul')
-
-
-    var firstnameLi = document.createElement('li');
-    firstnameLi.appendChild(fnArray[i]);
-    
-    var lastnameLi = document.createElement('li');
-    lastnameLi.appendChild(lnArray[i]);
-    
-    var locationLi = document.createElement('li');
-    locationLi.appendChild(locatonArray[i]);
-
-    gameUl.appendChild(firstnameLi);
-    gameUl.appendChild(lastnameLi);
-    gameUl.appendChild(locaitonLi);
-
-    gameUl.appendChild(gameGrid.cloneNode(true));
-    gameGrid.parentNode.replaceChilde(gameUl,gameGrid);
-
-}
-
-
-
-
-
-
 
 function addCourt() {
 
@@ -67,5 +29,8 @@ function addCourt() {
     locationLi.innerHTML = location;
     locationWrapper.appendChild(locationLi);
     
-    
+    courtWrapper.appendChild(fnWrapper);
+    courtWrapper.appendChild(lnWrapper);
+    courtWrapper.appendChild(locationWrapper);
+
 }
