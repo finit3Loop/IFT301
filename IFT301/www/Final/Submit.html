@@ -31,12 +31,18 @@
             Location: <br>
             <input type="text" name="location"> <br>
             Discription:<br>
-            <textarea placeholder="Write your discription..." style="height:200px"></textarea>
+            <textarea name="discription" placeholder="Write your discription..." style="height:200px"></textarea>
             <br>
             <br>
             <br>
             <input class="button" onclick="addCourt()" type="submit" value="Submit">
         </form>
+    </div>
+    
+    <div class="game-grid-container">
+        <h2 class="game-grid-headding">New Courts Under Review</h2>
+        <div class="game-grid" id="game-grid">
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
