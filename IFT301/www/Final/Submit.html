@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="form-container">
-        <form class="submit-form" onclick="addCourt()" action = "/placeholder.html" method="POST">
+        <form class="submit-form" id="submit-form" action = "/placeholder.html" method="POST">
             First name:<br>
             <input type="text" name="firstname"><br>
             Last name:<br>
@@ -35,7 +35,7 @@
             <br>
             <br>
             <br>
-            <input class="button" type="submit" value="Submit">
+            <input class="button" onclick="addCourt()" type="submit" value="Submit">
         </form>
     </div>
     <script src="main.js"></script>
